@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JoyConMotionControl.cpp">
+    <ClCompile Include="src\JoyConMotionControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
