@@ -18,5 +18,34 @@
     <ClCompile Include="src\JoyConMotionControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\connection\Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\connection\JoyConConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\connection\JoyConConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\connection\Device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\hidapi\includes\hidapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\hidapi\includes\hidapi_winapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+    <None Include="lib\hidapi\x64\hidapi.pdb" />
+    <None Include="hidapi.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\hidapi\x64\hidapi.lib" />
   </ItemGroup>
 </Project>
